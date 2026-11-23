@@ -68,7 +68,7 @@ Step 5: Create a New Branch from the Initial Commit
 Execute:
 
 bash
-git switch -c developerdemo 028045d
+git switch -c developer_demo 028045d
 
 Explanation
 git switch switches branches.
@@ -87,7 +87,7 @@ git branch
 Expected output:
 
 text
-* developedemo
+* developer_demo
   main
 
 
@@ -113,7 +113,7 @@ After successful execution, Developer A's file cal.py will be available in the n
 Example output:
 
 text
-[AB_development new-commit-id] Developer A
+[developer_demo new-commit-id] Developer A
 1 file changed
 
 
