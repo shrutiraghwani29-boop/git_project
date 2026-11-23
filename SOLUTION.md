@@ -27,8 +27,6 @@ ddebaa8	Developer B	hello.py
 6a2c813	Developer A	cal.py
 028045d	Initial Commit	vowels.py
 
-Note: These are example commit IDs. Your actual commit IDs may be different.
-
 Step 2: Check the Commit History
 
 Open PowerShell or the terminal in your project directory.
@@ -223,20 +221,20 @@ The original main branch remains unchanged.
 text
 main
  |
- * Developer B - hello.py
+ * Developer B - vowels.py
  |
  * Developer A - cal.py
  |
  * Initial Commit
 
-AB_development Branch
+developedemo Branch
 
 The new branch contains only the initial project and the selected work.
 
 text
 AB_development
  |
- * Developer B - hello.py
+ * Developer B - vowels.py
  |
  * Developer A - cal.py
  |
@@ -287,10 +285,4 @@ Conclusion
 
 The development team successfully created a separate branch named AB_development containing only Developer A's and Developer B's changes.
 
-Developer C's changes were excluded because their commit was not cherry-picked.
-
 The original main branch remains unchanged.
-
-Key Learning: Git cherry-pick is useful when we need to select specific commits from an existing branch instead of merging all the changes.
-
-Note: This example assumes Developer A's and Developer B's commits can be applied independently. If their changes depend on Developer C's changes, additional conflict resolution or dependency adjustments may be required.
