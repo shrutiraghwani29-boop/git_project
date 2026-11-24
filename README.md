@@ -93,12 +93,12 @@ main
  |
  * Initial Commit
 
-AB_development Branch
+developer_demo Branch
 
 Contains only Developer A's and Developer B's work.
 
 text
-AB_development
+developer_demo
  |
  * Developer B
  |
